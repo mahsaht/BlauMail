@@ -1,0 +1,152 @@
+@import url('resetter.css');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+/* #f16421 */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Zen+Dots&display=swap');
+
+@font-face {
+  font-family: 'OriginalSurfer';
+  src: url(../fonts/OriginalSurfer-Regular.ttf);
+}
+body{
+  background-color: #555;
+  color: #757575;
+}
+
+.container{
+  width: 960px;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.fa-meetup {color: red;
+}
+
+header{  background-color: #f0f0f0; }
+  header nav{
+    text-align: right;
+    padding: 10px 20px;
+  }
+    header nav li{
+      list-style-type: none;
+      display: inline-block;
+      margin-left: 20px;
+    }
+    header nav li img{
+      margin-right: 5px;
+    }
+    header nav li a{
+      text-decoration: none;
+      color: #757575;
+      transition: all 0.5s;
+    }
+    header nav li a:hover{
+      color: maroon;
+    }
+
+  header section{  
+    background-color: #fff; 
+    overflow: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px #c4c3c3;
+  }
+    header section #lBox{
+      float: left;
+    }
+    header section #lBox h1{
+      font-size: 3em;
+      color: #f16421;
+      letter-spacing: -3px;
+      font-family: 'OriginalSurfer', cursive;
+    }
+    header section #lBox h1 span{
+      color: #757575;
+      font-weight: 400;
+    }
+    header section #lBox h4{ text-transform: uppercase;}
+    header section #rBox{
+      float: right;
+      font-size: 2.5em;
+    }
+main{
+  padding: 20px;
+  overflow: auto;
+}
+  main figure{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  main figure img{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+  }
+  main figure figcaption{
+    background-color: #f16321ce;
+    color: #fff;
+    font-size: 1.75em;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-family: 'Zen Dots', cursive;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+  }
+  main section{
+    width: 590px;
+    float: left;
+  }
+  main .readMore{
+    background:linear-gradient(#f1a349,#f68b1d 10%,#f06521);
+    border: 1px solid #bd610b;
+    border-radius: 10px;
+    display: block;
+    height: 28px;
+    line-height: 24px;
+    width: 120px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    text-indent: 10px;
+    float: right;
+  }
+  main .readMore:hover{
+    background:linear-gradient(#f1a349,#f68b1d 30%,#f06521);
+    /* color: maroon; */
+  }
+  main .readMore span{
+    color: #7f410d;
+    background: radial-gradient(transparent,#b85f16);
+    border-radius: 50%;
+    display: inline-block;
+    width: 28px;
+    height: 38px;
+    line-height: 35px;
+    position: absolute;
+    right: -4px;
+    top: -5px;
+    margin-left: 8px;
+  }
+  main aside{
+    width: 300px;
+    float: right;
+    background-color: #e1e1e1;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  main aside figure figcaption{
+    bottom: auto;
+    top: 20px;
+    display: inline-block;
+    font-size: 1.15em;
+  }
+footer{
+  background-color: #f0f0f0;
+}
+
